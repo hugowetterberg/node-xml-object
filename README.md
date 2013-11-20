@@ -1,5 +1,9 @@
 # XML Object
 
+[![NPM version](https://badge.fury.io/js/xml-object.png)](http://badge.fury.io/js/xml-object)
+[![Dependency Status](https://gemnasium.com/hugowetterberg/node-xml-object.png)](https://gemnasium.com/hugowetterberg/node-xml-object)
+[![Build Status](https://travis-ci.org/hugowetterberg/node-xml-object.png?branch=master)](https://travis-ci.org/hugowetterberg/node-xml-object)
+
 Maps normal objects/values to xml. Most XML libraries require a special object "syntax" to support xml features like attributes, which is necessary if you want to be able to output all kinds of xml. `xml-object` isn't as flexible, but just concerns itself with outputting an xml representation of javascript data.
 
 The test cases probably describe the process best:
