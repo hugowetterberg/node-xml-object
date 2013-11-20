@@ -6,7 +6,20 @@
 
 Maps normal objects/values to xml. Most XML libraries require a special object "syntax" to support xml features like attributes, which is necessary if you want to be able to output all kinds of xml. `xml-object` isn't as flexible, but just concerns itself with outputting an xml representation of javascript data.
 
-The test cases probably describe the process best:
+Sample usage:
+
+    var lib = {xml: require('xml-object')};
+    var xml = lib.xml({a:"Submarine"}, {declaration:true, indent:true});
+    console.log(xml);
+
+Result:
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <a>Submarine</a>
+
+The options object is optional, and `true` can be passed as a short-hand for `{indent:true}`.
+
+The test cases probably describe the mapping behaviour best:
 
     {
       name: "simple element",
