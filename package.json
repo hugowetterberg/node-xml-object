@@ -1,0 +1,27 @@
+{
+  "name": "xml-object",
+  "version": "0.1.0",
+  "description": "Direct object to XML serialization",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/hugowetterberg/node-xml-object"
+  },
+  "keywords": [
+    "xml",
+    "generate",
+    "serialize"
+  ],
+  "author": "Hugo Wetterberg <hugo@wetterberg.nu>",
+  "license": "MIT",
+  "dependencies": {
+    "xml": "0.0.10"
+  },
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.14.0"
+  }
+}
